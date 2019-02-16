@@ -14,6 +14,8 @@ BOT_NAME = 'myasiantv'
 SPIDER_MODULES = ['myasiantv.spiders']
 NEWSPIDER_MODULE = 'myasiantv.spiders'
 
+FEED_FORMAT = 'json'
+FEED_URI = 'result.json'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'myasiantv (+http://www.yourdomain.com)'
